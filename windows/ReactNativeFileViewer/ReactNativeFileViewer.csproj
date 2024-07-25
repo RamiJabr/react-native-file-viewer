@@ -146,5 +146,6 @@
   </Target>
   <ItemGroup>
     <None Remove="bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd" />
+    <None Remove="$(ReactNativeWindowsDir)\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd" />
   </ItemGroup>
 </Project>
